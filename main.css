@@ -1,0 +1,154 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.main__container {
+    margin: 100px auto 100px auto;
+    width: 300px;
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 44%);
+}
+
+.nft__imgs {
+    position: relative;
+}
+
+.nft__img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.preview__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    padding: 126px 126px 126px 126px;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.preview__img:hover {
+    opacity: 1;
+    background: rgba(0, 255, 247, 0.434);
+}
+
+.nft__title {
+    color: white;
+    font-weight: 400;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 0.01ch;
+    cursor: pointer;
+    transition: color 0.15s;
+    transition: all .3s;
+}
+
+.nft__title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.nft__description {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+    width: 280px;
+}
+
+.nft__price {
+    display: inline-block;
+    text-align: left;
+
+}
+
+.nft__price img {
+    width: 10px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.nft__price p {
+    display: inline-block;
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+}
+
+.nft__duration {
+    display: inline-block;
+    text-align: right;
+    width: 217px;
+}
+
+.nft__duration img {
+    width: 12px;
+    vertical-align: middle;
+}
+
+.nft__duration p {
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+    size: 1px;
+    border: 1px solid;
+}
+
+.avatar {
+    width: 30px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 100px;
+    border-color: hsl(0, 0%, 100%);
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.creation {
+    font-size: 13px;
+    color: hsl(215, 51%, 70%);
+    display: inline-block;
+}
+
+.creation span {
+    color: hsl(0, 0%, 100%);
+}
+
+.creation__name {
+    transition: all .3s;
+}
+
+.creation__name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+/* ATTRIBUTION */
+.attribution {
+    text-align: center;
+    color: hsl(215, 51%, 70%);
+}
+
+.attribution a {
+    text-decoration: none;
+
+}
+
+.attribution a:first-child {
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution a:nth-child(2) {
+    color: #fff;
+}
